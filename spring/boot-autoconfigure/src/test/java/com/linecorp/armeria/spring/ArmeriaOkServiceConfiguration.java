@@ -28,7 +28,6 @@ import com.linecorp.armeria.server.PathMapping;
 import com.linecorp.armeria.server.ServiceRequestContext;
 import com.linecorp.armeria.server.logging.LoggingService;
 
-@Configuration
 class ArmeriaOkServiceConfiguration {
     @Bean
     public HttpServiceRegistrationBean okService() {

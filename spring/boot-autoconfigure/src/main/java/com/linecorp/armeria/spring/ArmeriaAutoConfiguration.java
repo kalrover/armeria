@@ -78,6 +78,7 @@ public class ArmeriaAutoConfiguration {
 
         if (!armeriaServerConfigurators.isPresent() &&
             !thriftServiceRegistrationBeans.isPresent() &&
+            !grpcServiceRegistrationBean.isPresent() &&
             !httpServiceRegistrationBeans.isPresent() &&
             !annotatedServiceRegistrationBeans.isPresent()) {
             // No services to register, no need to start up armeria server.
